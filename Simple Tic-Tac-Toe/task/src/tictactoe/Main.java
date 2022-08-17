@@ -60,10 +60,10 @@ public class Main {
     public static void printBoard(char[][] gameBoard) {
 
         System.out.println("---------");
-        for (int i = 0; i < gameBoard.length; i++) {
+        for (char[] chars : gameBoard) {
             System.out.print("| ");
-            for (int j = 0; j < gameBoard[i].length; j++) {
-                System.out.print(gameBoard[i][j] + " ");
+            for (char aChar : chars) {
+                System.out.print(aChar + " ");
             }
             System.out.print("|");
             System.out.println();

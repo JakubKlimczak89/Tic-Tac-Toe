@@ -455,9 +455,6 @@ files:
         }
     }
   learner_created: false
-- name: src/tictactoe/Winner.java
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/5401#comment
 status: Failed
 feedback:
